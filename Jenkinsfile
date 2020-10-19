@@ -19,7 +19,7 @@ pipeline {
         stage('Docker Publish') {
             steps {
                 // Generate Jenkinsfile and prepare the artifact files.
-                sh "${tool name: 'sbt', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin/sbt docker:stage"
+                sh "sbt docker:stage"
 
                 // Run the Docker tool to build the image
                 script {
