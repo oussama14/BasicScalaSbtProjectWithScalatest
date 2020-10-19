@@ -18,7 +18,7 @@ git clone git://github.com/alvinj/BasicScalaSbtProjectWithScalatest.git
 
 Notes
 -----
-
+****
 Note: All the little ".gitignore" files are in the empty subdirectories so those directories would be checked into Git. (Git doesn't like empty directories, so you have to do something to get it to keep empty directories in the repo.)
 
 Alvin Alexander  
